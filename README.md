@@ -12,7 +12,7 @@
    **sample:**
    
    ```
-   generatDic(sourceStr, dicLength, lengthOfEachString, outFilePath);
+   DicFactory.generatDic(sourceStr, dicLength, lengthOfEachString, outFilePath);
    ```
    
    **Usage:**
