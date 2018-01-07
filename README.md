@@ -25,3 +25,14 @@
    -packageobfuscationdictionary dic.txt
    -obfuscationdictionary dic.txt
    ```
+   
+   **Then**
+   ```
+   0oOoOOO
+   00ooO0o
+   0o0ooo0
+   00ooo0o
+   oOOO00o
+   0O0O0O0
+   ...
+   ```
