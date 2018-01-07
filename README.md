@@ -17,8 +17,8 @@
    
    **Usage:**
    
-   copy outPut file to Android Studio project's `app` dir
-   add the follows to proguard-rules.pro
+   copy outPut file to Android Studio project's `app` dir  
+   add the follows to `proguard-rules.pro`
    
    ```
    -classobfuscationdictionary dic.txt
