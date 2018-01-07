@@ -11,14 +11,17 @@
    
    **sample:**
    
-   `generatDic(sourceStr, dicLength, lengthOfEachString, outFilePath);`
+   ```
+   generatDic(sourceStr, dicLength, lengthOfEachString, outFilePath);
+   ```
    
    **Usage:**
    
-   `add follows to proguard-rules.pro`
+   copy outPut file to Android Studio project's app dir
+   add the follows to proguard-rules.pro
    
    ```
-   -classobfuscationdictionary ./proguard-keys.txt
-   -packageobfuscationdictionary ./proguard-keys.txt
-   -obfuscationdictionary ./proguard-keys.txt
+   -classobfuscationdictionary dic.txt
+   -packageobfuscationdictionary dic.txt
+   -obfuscationdictionary dic.txt
    ```
