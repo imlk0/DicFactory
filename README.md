@@ -9,14 +9,16 @@
 	 * @param outFilePath 输出文件路径
 	 */
    
-   sample:
+   **sample:**
    
-   generatDic(sourceStr, dicLength, lengthOfEachString, outFilePath);
+   `generatDic(sourceStr, dicLength, lengthOfEachString, outFilePath);`
    
-   Usage:
+   **Usage:**
    
-   add follows to proguard-rules.pro
+   `add follows to proguard-rules.pro`
    
+   ```
    -classobfuscationdictionary ./proguard-keys.txt
    -packageobfuscationdictionary ./proguard-keys.txt
    -obfuscationdictionary ./proguard-keys.txt
+   ```
